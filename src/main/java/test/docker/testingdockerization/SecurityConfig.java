@@ -4,7 +4,7 @@
  * @projectName securitySpring
  * @packageName csc280.perezbenitez.jose.securityspring;
  */
-package csc280.perezbenitez.jose.securityspring;
+package test.docker.testingdockerization;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +18,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.web.cors.CorsConfiguration;
-
 
 import java.util.Arrays;
 import java.util.List;
